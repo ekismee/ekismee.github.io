@@ -1,0 +1,39 @@
+#header{
+  position: relative;
+  overflow: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#navi_list{
+  position: relative;
+  overflow: auto;
+}
+#navi_list{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#navi_list li{
+  float: left;
+  list-style: none;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#page{
+  color: yellow;
+}
+#navi_list2{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#navi_list2 li{
+  float: right;
+  list-style: none;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}

@@ -1,0 +1,165 @@
+/* 왼쪽메뉴 */
+
+aside#left {
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+aside#left li {
+  color: #666666;
+  text-align: center;
+  padding: 10px 0 10px 0px;
+  border: solid 1px #353535;
+}
+
+/* 오른쪽 콘텐츠 부분 */
+
+section#right {
+  width: 66%;
+  float: right;
+  margin-right: 30px;
+}
+section#right #profile {
+  margin-top: 10px;
+  width: 100%;
+}
+section#right p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+  opacity: 90%
+}
+
+/* 콘텐츠 박스 */
+
+section#right .box {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: solid 3px #353535;
+}
+section#right .box:hover {
+  border: solid 3px #FFF52D;
+}
+section#right .box img {
+  width: 300px;
+}
+section#right .box p {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+  color: gray;
+}
+
+/* 박스 세부정보 */
+
+section#right .box_detail {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  border: solid 3px #FFF52D;
+}
+section#right .box_detail img {
+  width: 300px;
+}
+section#right .box_text {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+}
+section#right .box_text img {
+  width: 300px;
+}
+/* 연락처 작성 영역 */
+
+section#right h2#board_title {
+  color: white;
+  margin-top: 10px;
+  padding: 0 0 10px 0;
+  border-bottom: solid 1px gray;
+}
+section#right table {
+  color: gray;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%
+}
+section#right td {
+  border-bottom: solid 1px gray;
+  padding: 10px;
+}
+section#right td.col1 {
+  width: 50px;
+  text-align: center;
+  border-right: solid 1px gray;
+}
+section#right td.col2 {
+  padding: 5px 0 0 10px;
+}
+section#right #name input {
+  width: 200px;
+  height: 15px;
+  border: solid 1px gray;
+}
+section#right #subject input {
+  width: 550px;
+  height: 15px;
+}
+section#right #content textarea {
+  width: 550px;
+  height: 300px;
+  margin: 5px 5px 5px 0;
+}
+section#right #buttons {
+  text-align: right;
+  margin: 10px 10px 0 0;
+}
+
+/* 연락처 목록 영역 */
+
+section#right h2#board_title {
+  margin-top: 20px;
+  padding: 0 0 5px 0;
+  border-bottom: solid 1px gray;
+}
+section#right table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+section#right tr {
+  height: 30px;
+}
+section#right th {
+  color: white;
+  background-color: gray;
+}
+section#right td {
+  color: white;
+  border-bottom: solid 1px gray;
+}
+section#right td.col1 {
+  width: 20px;
+  text-align: center;
+}
+section#right td.col2 {
+  width: 300px;
+}
+section#main td.col3 {
+  width: 80px;
+  text-align: center;
+}
+section#right td.col4 {
+  width: 80px;
+  text-align: center;
+}
+section #buttons .col2 {
+  float: right;
+  margin-right: 10px;
+}
